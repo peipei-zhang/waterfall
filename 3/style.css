@@ -1,0 +1,35 @@
+body,html{
+	margin: 0;
+	padding: 0;
+}
+
+ul,li{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.main{
+	-webkit-column-width:202px;
+	-moz-column-width:202px;
+	-o-column-width:202px;
+	-ms-column-width:202px;
+}
+
+.box{
+	padding:0 15px 15px 0;
+}
+
+.pic{
+	width: 165px;
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	box-shadow: 0 0 5px #ccc;
+}
+
+.pic img{
+	display: block;
+	width: 165px;
+	height: auto;
+}
