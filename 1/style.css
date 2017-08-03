@@ -1,0 +1,35 @@
+body,html{
+	margin: 0;
+	padding: 0;
+}
+ul,li{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.container{
+	width: 1197px;
+	margin: 15px auto;
+}
+
+.main{
+	position: relative;
+}
+
+.box{
+	padding: 0 15px 15px 0;
+	float: left;
+}
+
+.pic{
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	box-shadow: 0 0 5px #ccc;
+}
+
+.pic img{
+	width: 165px;
+	height: auto;
+}
