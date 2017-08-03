@@ -18,7 +18,7 @@ window.onload=function(){
        	   oPic.className='pic';
        	   oBox.appendChild(oPic);
        	   var img=document.createElement('img')
-       	   img.src='./imgs/'+dataInt.data[i].src;
+       	   img.src='../imgs/'+dataInt.data[i].src;
        	   oPic.appendChild(img)
        }
        waterfall('main','box')
