@@ -1,13 +1,14 @@
 window.onload=function(){
   //图片定位
   waterfall('main','box')
+
   var dataInt={'data':[{'src':'0.jpg'},{'src':'1.jpg'},{'src':'2.jpg'},{'src':'3.jpg'},{'src':'4.jpg'},{'src':'5.jpg'}]};
+  
   //滚动加载
   window.onscroll=function(){
   	//当滚动到指定位置时进行加载下一张
   	if(checkScrollSide()){
        //加载接下来的图片
-       console.log("1")
        var oParent=document.getElementById('main')
        //遍历要加载的数据
        for(var i=0;i<dataInt.data.length;i++){
